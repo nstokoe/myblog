@@ -3,8 +3,10 @@ ruby '2.1.2'
 #ruby-gemset=nathanielstokoe
 
 gem 'rails', '4.0.5'
+gem 'haml-rails'
 
 group :development, :test do
+  gem 'html2haml'
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
 end
