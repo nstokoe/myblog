@@ -25,6 +25,7 @@ gem 'capybara', '>=2.2.1'
 gem 'bootstrap-sass', '>= 3.0.2'
 gem 'autoprefixer-rails'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'font-awesome-rails'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false

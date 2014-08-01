@@ -1,0 +1,33 @@
+.col-lg-4.col-md-5.col-sm-6.col-xs-12
+
+  %ul.list-unstyled
+    %li
+      %h3
+        .label.label-default
+          %i.fa.fa-smile-o
+          &nbsp;
+          Nathaniel Stokoe
+    %li
+      %h3
+        = mail_to 'nstokoe@gmail.com', class: 'label label-default' do
+          %i.fa.fa-envelope
+          &nbsp;
+          nstokoe@gmail.com
+    %li
+      %h3
+        = link_to 'https://twitter.com/NathanielStokoe', class: 'label label-default' do
+          %i.fa.fa-twitter
+          &nbsp;
+          @nathanielstokoe
+    %li
+      %h3
+        = link_to 'http://www.linkedin.com/pub/nathaniel-stokoe/15/472/861', class: 'label label-default' do
+          %i.fa.fa-linkedin
+          &nbsp;
+          linkedin
+    %li
+      %h3
+        = link_to 'http://github.com/nstokoe', class: 'label label-default' do
+          %i.fa.fa-github
+          &nbsp;
+          github

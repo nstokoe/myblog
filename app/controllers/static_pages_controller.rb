@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  layout 'simple_layout', :only => [:splash]
+
   def home
   end
 
@@ -9,5 +11,8 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def splash
   end
 end
